@@ -22,9 +22,9 @@ names = ["Sheldon", "Leonard", "Penny", "Rajesh", "Howard"]
 #         names.pop(0)
 
 #     return names[-3]
+# figure out how this way works
 
 # another way without recursion, but still too slow for codewars, I have to find a way using math
-# figure out how this way works
 def who_is_next(names, r):
     line = len(names)
     while r > line:
